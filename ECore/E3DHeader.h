@@ -1,0 +1,18 @@
+#pragma once
+namespace E3D
+{
+	struct EColor;    //颜色
+	struct EVector2D; //
+	struct EVector3D;
+	struct EVector4D;
+	struct EMatrix44; //4*4矩阵
+
+	struct EVertex4D;   //顶点
+	struct EPolyon4D;   //基于顶点的多边形
+	struct EPolyonF4D;  //基于索引的多边形
+	struct EObject4D;   //对象
+	struct EPlane3D;	//三维平面
+	struct ERenderList4D;//渲染列表
+
+	struct EFrustum;    //透视体
+}
