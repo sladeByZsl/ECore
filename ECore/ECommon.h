@@ -85,6 +85,7 @@ namespace E3D
 			EInt gi = g * c.g >> 8 ;
 			EInt bi = b * c.b >> 8;
 			EInt ai = a * c.a >> 8;
+
 			return EColor(ri, gi, bi, ai);
 		}
 	};
